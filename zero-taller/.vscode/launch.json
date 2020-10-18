@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Publisher",
+            "request": "launch",
+            "mainClass": "com.Taller.Publisher",
+            "projectName": "zero-taller"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

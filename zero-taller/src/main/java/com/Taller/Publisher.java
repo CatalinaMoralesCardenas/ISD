@@ -28,7 +28,7 @@ public class Publisher
                 publishHour = date.get(Calendar.HOUR) + ":" + date.get(Calendar.MINUTE) + ":" + date.get(Calendar.SECOND);
                 message = "This is the artist one\n";
 
-                String update = String.format("%d %d %d %d", nameArtist, publishDate, publishHour, message);
+                String update = String.format("%s %s %s %s", nameArtist, publishDate, publishHour, message);
                 
                 publisher.send(update, 0);
 
