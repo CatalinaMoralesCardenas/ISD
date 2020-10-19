@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Subscriber",
+            "request": "launch",
+            "mainClass": "com.Taller.Subscriber",
+            "projectName": "zero-taller"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Suscriber",
+            "request": "launch",
+            "mainClass": "com.Taller.Suscriber",
+            "projectName": "zero-taller"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Publisher",
             "request": "launch",
             "mainClass": "com.Taller.Publisher",
