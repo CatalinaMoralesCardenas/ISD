@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PublisherWindow",
+            "request": "launch",
+            "mainClass": "com.Taller.PublisherWindow",
+            "projectName": "zero-taller"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrincipalWindow",
+            "request": "launch",
+            "mainClass": "com.Taller.PrincipalWindow",
+            "projectName": "zero-taller"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubscriberWindow",
+            "request": "launch",
+            "mainClass": "com.Taller.SubscriberWindow",
+            "projectName": "zero-taller"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Subscriber",
             "request": "launch",
             "mainClass": "com.Taller.Subscriber",
