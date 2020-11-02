@@ -108,10 +108,10 @@ public class PublisherWindow extends javax.swing.JFrame
 
     private void PublishActionPerformed(java.awt.event.ActionEvent evt) throws Exception 
     {
-        JOptionPane.showMessageDialog( rootPane, "Sending Artists", null, 3 );
-        Publisher publisher = new Publisher( );
+        JOptionPane.showMessageDialog( rootPane, "Sending Artist", null, 3 );
         String artist = artistName.getText( );
         String mes = message.getText( );
+        Publisher publisher = new Publisher( );
         publisher.displayArtist( artist, mes );
     }
 

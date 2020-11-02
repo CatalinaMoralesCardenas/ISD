@@ -9,7 +9,7 @@ public class Publisher
 {
     public void displayRamdom ( ) throws Exception 
     {
-        String[] messages = new String[] {"Hi", "How are you", "Thanks for be my subscriber", "Nice to meet you"};
+        String[] messages = new String[] {"Hi", "How_are_you", "Thanks_for_be_my_subscriber", "Nice_to_meet_you"};
         try (ZContext context = new ZContext()) 
         {
             ZMQ.Socket publisher = context.createSocket(SocketType.PUB);
@@ -19,7 +19,7 @@ public class Publisher
 
             while (!Thread.currentThread().isInterrupted()) 
             {
-                for (int i = 1; i < 5; i++) 
+                for (int i = 1; i < 4; i++) 
                 {
                     String artist, publishDate, publishHour, message;
                     String months[] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov","Dec" };
