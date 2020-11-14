@@ -1,0 +1,5 @@
+Para probar el programa primero correr el publicador, puede envíar un
+sólo artista, ingresando los datos y dandole "publish", o puede enviar
+artistas aleatoriamente seleccionando "Random Artists".
+Luego correr el suscriptor, puede suscribirse a uno, dos o a todos los 
+artistas.

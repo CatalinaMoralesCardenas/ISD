@@ -17,6 +17,7 @@ public class Subscriber
                 ZMQ.Socket subscriber = context.createSocket(SocketType.SUB);
                 
                 subscriber.connect("tcp://localhost:5556");
+                //subscriber.connect("tcp://192.168.0.12:5556");
                 
                 String filter = String.valueOf(code);
                 subscriber.subscribe(filter.getBytes(ZMQ.CHARSET));
